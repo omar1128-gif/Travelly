@@ -39,7 +39,10 @@ To run this project locally, follow these steps:
     ```
     http://localhost:3000
     ```
-    
+
+## Live Preview
+
+You can view the live preview from **[here](https://travelly-one.vercel.app/)**.
 <br/>
 
 ---
