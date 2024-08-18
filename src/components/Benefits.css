@@ -1,0 +1,81 @@
+#benefits {
+    min-height: 100vh;
+}
+
+.benefits-head {
+    background: #343c44;
+    padding: 3rem;
+    min-height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.benefits-head h3 {
+    padding: 1rem;
+}
+
+.benefits-content {
+    min-height: 70vh;
+    position: relative;
+    display: flex;
+}
+
+.cards {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#tourism-video {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card {
+    border-radius: 1rem;
+    flex: 1 1 30rem;
+    min-height: 35vh;
+    margin: 2rem 5rem;
+    /* filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.3)); */
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1),
+        0px 20px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-width: 30rem;
+    background-color: white;
+}
+
+.card-icon {
+    background: #27394e;
+}
+
+.card img {
+    width: 15%;
+    max-width: 10rem;
+    margin: 2rem;
+}
+
+.card-content {
+    flex: 1;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.card h4 {
+    padding-bottom: 4rem;
+}
